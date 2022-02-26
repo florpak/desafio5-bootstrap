@@ -69,14 +69,19 @@ html {
 
 #services {
     padding: 80px 50px;
-    background-color: rgb(28, 189, 167);
+    background-color: rgb(34, 207, 184);
+    background-image: linear-gradient(160deg, rgb(34, 207, 184),rgb(25, 191, 206));
 }
+
+/* Sección Servicios: Títular */
 
 #services h2 {
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 40px;
 }
+
+/* Alineación de elementos Cards */
 
 #content-cards {
     display: flex;
