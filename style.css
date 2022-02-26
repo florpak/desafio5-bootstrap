@@ -66,3 +66,48 @@ html {
 }
 
 /* Sección Servicios */
+
+#services {
+    padding: 80px 50px;
+    background-color: rgb(28, 189, 167);
+}
+
+#services h2 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+#content-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cards de Servicios */
+
+.card-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    max-width: 250px;
+    border: 0px;
+}
+
+.card-services img {
+    width: 200px;
+}
+
+.card-services h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card-services p {
+    text-align: center;
+}
