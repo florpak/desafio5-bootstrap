@@ -65,32 +65,35 @@ html {
     height: 100vh;
 }
 
-/* Sección Servicios */
+/* Servicios */
 
+/* Sección Servicios */
 #services {
-    padding: 80px 50px;
-    background-color: rgb(34, 207, 184);
+    padding: 80px 20px 60px 20px;
+    /* background-color: rgb(34, 207, 184); */
     background-image: linear-gradient(160deg, rgb(34, 207, 184),rgb(25, 191, 206));
+    text-align: center;
 }
 
 /* Sección Servicios: Títular */
 
 #services h2 {
     font-size: 50px;
-    font-weight: 800;
-    margin-bottom: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 /* Alineación de elementos Cards */
 
 #content-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    gap: 25px;
+    margin: 40px 0px;
+    justify-content: center;
 }
 
-/* Cards de Servicios */
+/* Sección Servicios: Cards */
 
 .card-services {
     display: flex;
@@ -102,15 +105,18 @@ html {
     border: 0px;
 }
 
+/* Sección Servicios: Imagen */
+
 .card-services img {
     width: 200px;
 }
 
+/* Sección Servicios: Textos */
+
 .card-services h3 {
     font-size: 25px;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    font-weight: 500;
+    margin-top: 15px;
 }
 
 .card-services p {
