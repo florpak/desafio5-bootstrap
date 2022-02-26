@@ -70,7 +70,6 @@ html {
 /* Sección Servicios */
 #services {
     padding: 80px 20px 60px 20px;
-    /* background-color: rgb(34, 207, 184); */
     background-image: linear-gradient(160deg, rgb(34, 207, 184),rgb(25, 191, 206));
     text-align: center;
 }
@@ -85,13 +84,17 @@ html {
 
 /* Alineación de elementos Cards */
 
+
 #content-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    gap: 60px;
     margin: 40px 0px;
     justify-content: center;
+    align-items: center;
 }
+
+
 
 /* Sección Servicios: Cards */
 
