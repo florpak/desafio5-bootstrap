@@ -31,6 +31,29 @@ html {
     color: rgb(72, 194, 194);
 }
 
+/* Navbar button responsive */
+
+@media (max-width: 991px) {
+    .burgernav {
+        border: 1px solid rgb(216, 216, 216) !important;
+        margin-right: 2%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .nav-responsive {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 325px) {
+    .navbar-brand p {
+        display: none;
+    }
+}
+
 /* Portada Carrousel */
 
 .carousel-item img {
