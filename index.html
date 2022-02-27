@@ -203,35 +203,42 @@
         </section>
 
         <!-- Sección Contacto -->
-        <section id="contact">
-            <!-- Formulario -->
-            <div class="content-contact">
-                <h2>Contacto</h2>
-                <div class="bajada-contact">
-                    <p>Si querés contactarte conmigo, preguntar presupuestos o consultar por proyectos, dejame tu mensaje.</p>
+        <section class="page-section" id="contact">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="page-section-heading text-center">Contacto</h2>
+                        <!-- <hr class="divider"/> -->
+                        <p class="text-muted mb-5">Si querés contactarte conmigo, preguntar presupuestos o consultar por proyectos, dejame tu mensaje.</p>
+                    </div>
                 </div>
-                <div class="formulario">
-                    <form action="#">
-                        <div>
-                            <label class="label" for="fnombre">Nombre</label>
-                            <input class="casilla" type="text" id="fnombre" placeholder="Tu nombre" required>
-                        </div>
-                        <div>
-                            <label class="label" for="fmail">Email</label>
-                            <input class="casilla" type="email" id="fmail" placeholder="Tu mail" required>
-                        </div>
-                        <div>
-                            <label class="label" for="fasunto">Asunto</label>
-                            <input class="casilla" type="text" id="fasunto" placeholder="¿De qué se trata?" required>
-                        </div>
-                        <div>
-                            <label class="label" for="fmensaje">Tu mensaje</label>
-                            <textarea class="mensaje" name="fmensaje" id="fmensaje" cols="40" rows="10"  placeholder="Dejame tu mensaje..."></textarea>
-                        </div>
-                        <div class="button-contact">
-                            <input class="enviar" type="submit">
-                        </div>
-                    </form>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <form id="contactForm">
+                            <!-- Nombre input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                                <label for="name">Tu nombre</label>
+                            </div>
+                            <!-- Email input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="nombre@ejemplo.com" required />
+                                <label for="email">Tu email</label>
+                            </div>
+                            <!-- Asunto input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="asunto" type="text" placeholder="¿De qué se trata?" required />
+                                <label for="asunto">Asunto</label>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                                <label for="message">Tu mensaje</label>
+                            </div>
+                            <!-- Submit Button-->
+                            <div class="button-submit d-grid"><button class="btn btn-outline-dark d-grid gap-2 col-6 mx-auto button-works" id="submitButton" type="submit">Enviar</button></div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
