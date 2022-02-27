@@ -149,6 +149,17 @@ html {
     margin-bottom: 50px;
 }
 
+/* Grilla Cards Proyectos */
+
+.grid-works {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    gap: 25px;
+    margin: 40px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Hover Card: Texto y transparencia */
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
