@@ -51,6 +51,12 @@ html {
     }
 }
 
+@media (min-width: 992px) {
+    .nav-responsive {
+        display: none;
+    }
+}
+
 @media (max-width: 325px) {
     .navbar-brand p {
         display: none;
@@ -144,7 +150,7 @@ html {
 
 /* Márgenes */
 
-.container-fluid {
+.content-works {
     margin-top: 50px;
     margin-bottom: 50px;
 }
