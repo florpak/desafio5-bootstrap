@@ -278,3 +278,18 @@ h2 {
 .button-cv a:hover {
     color: rgb(0, 0, 0);
 }
+
+/* Contacto */
+
+/* Sección Contacto */
+
+#contact {
+    padding: 80px 20px 50px 20px;
+    text-align: center;
+}
+
+/* Sección Contacto: Botón Enviar */
+
+.button-submit {
+    margin-top: 40px;
+}
