@@ -9,6 +9,15 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Titulares de Secciones */
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+
 /* Encabezado */
 
 /* Barra de navegación */
@@ -80,14 +89,6 @@ html {
     text-align: center;
 }
 
-/* Sección Servicios: Títular */
-
-#services h2 {
-    font-size: 50px;
-    font-weight: 900;
-    margin-bottom: 20px;
-}
-
 /* Alineación de elementos Cards */
 
 
@@ -136,16 +137,8 @@ html {
 
 /* Sección Portfolio */
 #works {
-    padding: 80px 20px 60px 20px;
+    padding: 80px 20px 50px 20px;
     text-align: center;
-}
-
-/* Sección Portfolio: Títular */
-
-#works h2 {
-    font-size: 50px;
-    font-weight: 900;
-    margin-bottom: 20px;
 }
 
 /* Márgenes */
@@ -153,6 +146,17 @@ html {
 .content-works {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+/* Grilla Cards Proyectos */
+
+.grid-works {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    gap: 25px;
+    margin: 40px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Hover Card: Texto y transparencia */
@@ -216,7 +220,7 @@ html {
     border-radius: 15px;
 }
 
-/* Sección Proyectos: Botón */
+/* Sección Proyectos: Botón a Todos los Proyectos */
 
 .button-works {
     width: 180px;
@@ -233,7 +237,7 @@ html {
 }
 
 .button-works:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8)
 }
 
 .button-works a:hover {
@@ -243,3 +247,40 @@ html {
 /* Sobre Mí */
 
 /* Sección Sobre Mí */
+
+#about {
+    padding: 80px 20px 50px 20px;
+    background-image: linear-gradient(160deg, rgb(34, 207, 184),rgb(25, 191, 206));
+}
+
+/* Sección Sobre Mí: Imagen */
+
+.about-img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección Sobre Mí: Botón a Currículum */
+
+.button-cv {
+    width: 180px;
+    height: 45px;
+    border-color: white;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    transition: .5s;
+}
+
+.button-cv a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.button-cv:hover {
+    border-color: white;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.button-cv a:hover {
+    color: rgb(0, 0, 0);
+}
