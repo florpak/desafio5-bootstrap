@@ -219,7 +219,6 @@ h2 {
 /* Sección Proyectos: Cards */
 
 .portfolio-box {
-    margin: 5px;
     height: 260px;
     width: 400px;
 }
@@ -371,4 +370,18 @@ h2 {
 .img-galery:hover {
     transform: scale(1.03);
     border: 2px solid rgb(168, 168, 168, 0.4);
+}
+
+/* Frames */
+
+.frame {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.frame iframe{
+    width: 94%;
+    height: 350px;
+    border-radius: 15px;
 }
