@@ -385,3 +385,20 @@ h2 {
     height: 350px;
     border-radius: 15px;
 }
+
+/* PÁGINA: Todos los proyectos */
+
+.title-head-page {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-work {
+    transition: .5s;
+}
+
+.card-work:hover {
+    transform: scale(1.03)
+}
