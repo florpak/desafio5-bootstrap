@@ -402,3 +402,61 @@ h2 {
 .card-work:hover {
     transform: scale(1.03)
 }
+
+/* PÁGINA: Currículum */
+
+.title-curriculum h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.content-cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+
+.categoria {
+    margin-bottom: 20px;
+}
+
+.title_cat {
+    margin-bottom: 10px;
+}
+
+.title_cat h2 {
+    font-weight: 350;
+    font-size: 30px;
+}
+
+.rubro {
+    margin: 10px 30px 20px;
+}
+
+.rubro h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.rubro p {
+    font-weight: 350;
+    font-size: 17px;
+}
+
+.rubro ul li {
+    margin-left: 25px;
+    list-style: none;
+}
+
+.herramientas img {
+    margin: 5px;
+    width: 40px;
+}
+
+.herramientas img:hover {
+    opacity: 0.8;
+}
