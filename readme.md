@@ -9,3 +9,5 @@ Portfolio de Diseño - Florencia Pak
 Rama: complementario
 
 Desafío Complementario: Aplicando Bootstrap
+
+Corrección de algunos errores en el desafío complementario
